@@ -14,6 +14,9 @@ class CardDeck:
         self.current_items.remove(item)
         return item
 
+    def pick_next(self):
+        return next(iter(self.current_items), None)
+
     def take_next(self):
         return self.current_items.pop(1)
     
