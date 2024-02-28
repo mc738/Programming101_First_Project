@@ -11,5 +11,7 @@ print(cd.take_random())
 print(cd.count())
 
 cd.debug()
+cd.shuffle()
+cd.debug()
 
 print("Hello, World!")

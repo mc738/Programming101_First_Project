@@ -21,7 +21,7 @@ class CardDeck:
         return len(self.current_items)
     
     def shuffle(self):
-        self.current_items = random.shuffle(self.current_items)
+        random.shuffle(self.current_items)
 
     def debug(self):
         print(self.current_items)
