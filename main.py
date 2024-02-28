@@ -10,5 +10,6 @@ print(cd.count())
 print(cd.take_random())
 print(cd.count())
 
+cd.debug()
 
 print("Hello, World!")
