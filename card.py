@@ -1,6 +1,3 @@
-
-class 
-
 class Card:
 
    def __init__(self, suit, number) -> None:
